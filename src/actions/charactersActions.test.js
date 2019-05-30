@@ -38,7 +38,7 @@ describe('character actions test', () => {
       fulfilledType: FETCH_CHARACTERS_FULFILLED,
       pendingType: FETCH_CHARACTERS_LOADING,
       rejectedType: FETCH_CHARACTERS_ERROR,
-      payload: Promise.resolve([])
+      payload: expect.any(Promise)
     });
   });
 });
