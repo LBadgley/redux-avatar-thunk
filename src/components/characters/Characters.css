@@ -2,15 +2,22 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-
+  background: rgb(97, 97, 97);
+  
   li {
     width: 25vw;
     text-align: center;
     list-style-type: none;
+    color: white;
+    font-family: cursive;
   }
-
+  
   img {
     width: 100%;
     margin: auto;
+    border: 10px rgb(145, 145, 145) ridge;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
   }
 }
